@@ -16,7 +16,7 @@ A binary classification neural network built with TensorFlow/Keras to predict wh
 
 ## 🎯 Overview
 
-This project implements a simple yet effective neural network to classify coffee roasting quality. Using just two input features (temperature and duration), the model learns to distinguish between successful and unsuccessful roasting batches. Perfect for understanding binary classification and neural network fundamentals!
+This project implements a simple yet effective neural network to classify coffee roasting quality. Using just two input features (temperature and duration), the model learns to distinguish between successful and unsuccessful roasting conditions.
 
 ## 🌟 Features
 
@@ -148,16 +148,22 @@ print(f"Prediction: {'Good ✅' if confidence > 50 else 'Bad ❌'}")
 
 ## 📈 Results
 
-The model achieves strong performance on the coffee roasting classification task:
+The model achieves solid performance on the coffee roasting classification task:
 
 | Metric | Performance |
 |--------|-------------|
-| **Training Accuracy** | ~98%+ |
-| **Validation Accuracy** | ~97%+ |
+| **Training Accuracy** | 91.2% |
+| **Validation Accuracy** | 91.0% |
+| **Validation Precision** | 79.1% |
+| **Validation Recall** | 79.1% |
 | **Model Size** | 13 parameters |
-| **Training Time** | <1 minute (on CPU) |
+| **Training Time** | ~2 minutes (on GPU) |
 
-The model successfully learns the relationship between roasting temperature, duration, and coffee quality, producing reliable probability-based predictions for unseen roasting conditions.
+The model converges quickly by **Epoch 4** and plateaus thereafter, achieving stable performance. It successfully learns a reasonable decision boundary between good and bad coffee roasting conditions. While these results are solid for a minimal model, further improvements can be achieved through:
+- Deeper or wider architectures
+- Advanced hyperparameter tuning
+- Additional feature engineering
+- Class balancing techniques if applicable
 
 ## 📁 Project Structure
 
@@ -195,7 +201,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🙏 Acknowledgments
 
-This project was inspired by **Andrew Ng's** famous coffee roasting example, used extensively in machine learning education. His passion for making machine learning accessible and engaging through real-world examples like coffee roasting made this project both educational and enjoyable!
+This project was inspired by **Andrew Ng's** famous coffee roasting example, used extensively in machine learning education. His passion for making machine learning accessible and engaging through real-world examples has been instrumental in popularizing the field.
 
 ---
 
