@@ -1,6 +1,10 @@
 # ☕ Coffee Roasting Classification using TensorFlow
 
 <p align="center">
+  <img src="mike-kenneally-tNALoIZhqVM-unsplash.jpg" width="500" alt="Coffee Beans">
+</p>
+
+<p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python 3.7+"></a>
   <a href="https://www.tensorflow.org/"><img src="https://img.shields.io/badge/TensorFlow-2.x-orange.svg" alt="TensorFlow 2.x"></a>
@@ -12,7 +16,7 @@ A binary classification neural network built with TensorFlow/Keras to predict wh
 
 ## 🎯 Overview
 
-This project implements a simple yet effective neural network to classify coffee roasting quality. Using just two input features (temperature and duration), the model learns to distinguish between successful roasting and unsuccessful ones with high accuracy.
+This project implements a simple yet effective neural network to classify coffee roasting quality. Using just two input features (temperature and duration), the model learns to distinguish between successful and unsuccessful roasting conditions.
 
 ## 🌟 Features
 
@@ -168,10 +172,11 @@ The model converges quickly by **Epoch 4** and plateaus thereafter, achieving st
 
 ```
 coffee_roasting_using_tensorflow/
-├── roasting_coffee.ipynb          # Main Jupyter notebook
-├── README.md                       # This file
-├── requirements.txt                # Python dependencies
-└── LICENSE                         # MIT License
+├── roasting_coffee.ipynb                    # Main Jupyter notebook
+├── README.md                                # This file
+├── requirements.txt                         # Python dependencies
+├── mike-kenneally-tNALoIZhqVM-unsplash.jpg # Coffee image
+└── LICENSE                                  # MIT License
 ```
 
 ## 🔍 How It Works
@@ -200,7 +205,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🙏 Acknowledgments
 
-This project was inspired by **Andrew Ng's** famous coffee roasting example, used extensively in machine learning education. His passion for making machine learning accessible and engaging through real-world examples has been transformative.
+This project was inspired by **Andrew Ng's** famous coffee roasting example, used extensively in machine learning education. His passion for making machine learning accessible and engaging through real-world applications is commendable.
 
 Special thanks to the Kaggle community for the coffee roasting dataset!
 
