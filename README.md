@@ -1,6 +1,8 @@
 # ☕ Coffee Roasting Classification using TensorFlow
 
-![Coffee Beans](https://upload.wikimedia.org/wikipedia/commons/4/45/Coffea_arabica%2C_coffee_beans_.jpg)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Coffea_arabica%2C_coffee_beans_.jpg" width="500">
+</p>
 
 A binary classification neural network built with TensorFlow/Keras to predict whether a coffee roasting process produces **Good Coffee** or **Bad Coffee** based on roasting **Temperature** and **Duration**.
 
