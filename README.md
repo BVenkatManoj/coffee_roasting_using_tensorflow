@@ -1,10 +1,12 @@
-# Coffee Roasting Classification using TensorFlow
+# ☕ Coffee Roasting Classification using TensorFlow
 
 A binary classification neural network built with TensorFlow/Keras to predict whether a coffee roasting process produces **Good Coffee** or **Bad Coffee** based on roasting **Temperature** and **Duration**.
 
-## Acknowledgment
+☕ 🫘 ☕ 🫘 ☕ 🫘 ☕
 
-This project was inspired by Andrew Ng's famous coffee roasting example used in machine learning education. His enthusiasm and recurring references to coffee beans made the coffee roasting problem an engaging way to learn neural networks, data preprocessing, and binary classification with TensorFlow.
+## Inspiration
+
+This project was inspired by Andrew Ng's famous coffee roasting example used in machine learning education. His enthusiasm for coffee beans made the coffee roasting problem an engaging and intuitive way to learn neural networks, feature normalization, and binary classification with TensorFlow.
 
 ## Features
 
@@ -47,7 +49,7 @@ path = kagglehub.dataset_download(
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/coffee-roasting-classification.git
+git clone https://github.com/<your-username>/coffee-roasting-classification.git
 cd coffee-roasting-classification
 ```
 
@@ -69,8 +71,8 @@ Run the notebook or Python script to:
 
 ## Results
 
-The model learns to classify coffee roasting quality based on roasting parameters and provides probability-based predictions for unseen samples.
+The model successfully learns the relationship between roasting parameters and coffee quality, producing probability-based predictions for unseen roasting conditions.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
