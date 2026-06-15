@@ -2,6 +2,10 @@
 
 A binary classification neural network built with TensorFlow/Keras to predict whether a coffee roasting process produces **Good Coffee** or **Bad Coffee** based on roasting **Temperature** and **Duration**.
 
+##Acknowledgment
+
+This project was inspired by Andrew Ng's famous coffee roasting example used in machine learning education. His enthusiasm and recurring references to coffee beans made the coffee roasting problem an engaging way to learn neural networks, data preprocessing, and binary classification with TensorFlow.
+
 ## Features
 
 * Data preprocessing and feature normalization
