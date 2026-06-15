@@ -1,36 +1,53 @@
 # Python
-__pycache__/
+
+**pycache**/
 *.py[cod]
+*$py.class
 
 # Virtual Environments
+
 venv/
 env/
 .venv/
 
-# Jupyter
+# Jupyter Notebook
+
 .ipynb_checkpoints/
 
-# TensorFlow Models
+# TensorFlow / Keras Models
+
 *.h5
 *.keras
 saved_model/
 checkpoints/
 
 # Dataset Downloads
+
+kagglehub/
 data/
 datasets/
-kagglehub/
+
+# Logs
+
+*.log
+logs/
 
 # Environment Variables
+
 .env
 
-# IDEs
+# IDE Settings
+
 .vscode/
 .idea/
 
-# Logs
-*.log
+# Build Files
 
-# OS Files
+build/
+dist/
+*.egg-info/
+
+# Operating System Files
+
 .DS_Store
 Thumbs.db
