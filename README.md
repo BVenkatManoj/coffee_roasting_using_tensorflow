@@ -1,7 +1,7 @@
 # ☕ Coffee Roasting Classification using TensorFlow
 
 <p align="center">
-  <img src="mike-kenneally-tNALoIZhqVM-unsplash.jpg" width="500" alt="Coffee Beans">
+  <img src="coffee-cup.jpg" width="500" alt="Hot Coffee Cup">
 </p>
 
 <p align="center">
@@ -172,11 +172,11 @@ The model converges quickly by **Epoch 4** and plateaus thereafter, achieving st
 
 ```
 coffee_roasting_using_tensorflow/
-├── roasting_coffee.ipynb                    # Main Jupyter notebook
-├── README.md                                # This file
-├── requirements.txt                         # Python dependencies
-├── mike-kenneally-tNALoIZhqVM-unsplash.jpg # Coffee image
-└── LICENSE                                  # MIT License
+├── roasting_coffee.ipynb          # Main Jupyter notebook
+├── README.md                       # This file
+├── requirements.txt                # Python dependencies
+├── coffee-cup.jpg                  # Coffee cup image
+└── LICENSE                         # MIT License
 ```
 
 ## 🔍 How It Works
