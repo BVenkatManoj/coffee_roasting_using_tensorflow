@@ -1,10 +1,6 @@
 # ☕ Coffee Roasting Classification using TensorFlow
 
 <p align="center">
-  <img src="mike-kenneally-tNALoIZhqVM-unsplash.jpg" alt="Coffee Beans" width="600">
-</p>
-
-<p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python 3.7+"></a>
   <a href="https://www.tensorflow.org/"><img src="https://img.shields.io/badge/TensorFlow-2.x-orange.svg" alt="TensorFlow 2.x"></a>
