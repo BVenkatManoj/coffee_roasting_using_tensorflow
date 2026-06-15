@@ -1,7 +1,7 @@
 # ☕ Coffee Roasting Classification using TensorFlow
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Coffea_arabica%2C_coffee_beans_.jpg" width="500" alt="Coffee Beans">
+  <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=500" width="500" alt="Coffee Beans">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@ A binary classification neural network built with TensorFlow/Keras to predict wh
 
 ## 🎯 Overview
 
-This project implements a simple yet effective neural network to classify coffee roasting quality. Using just two input features (temperature and duration), the model learns to distinguish between successful and unsuccessful roasting conditions.
+This project implements a simple yet effective neural network to classify coffee roasting quality. Using just two input features (temperature and duration), the model learns to distinguish between successful roasting and unsuccessful ones with high accuracy.
 
 ## 🌟 Features
 
@@ -159,7 +159,10 @@ The model achieves solid performance on the coffee roasting classification task:
 | **Model Size** | 13 parameters |
 | **Training Time** | ~2 minutes (on GPU) |
 
-The model converges quickly by **Epoch 4** and plateaus thereafter, achieving stable performance. It successfully learns a reasonable decision boundary between good and bad coffee roasting conditions. While these results are solid for a minimal model, further improvements can be achieved through:
+The model converges quickly by **Epoch 4** and plateaus thereafter, achieving stable performance. It successfully learns a reasonable decision boundary between good and bad coffee roasting conditions.
+
+### Future Improvements
+
 - Deeper or wider architectures
 - Advanced hyperparameter tuning
 - Additional feature engineering
@@ -201,7 +204,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🙏 Acknowledgments
 
-This project was inspired by **Andrew Ng's** famous coffee roasting example, used extensively in machine learning education. His passion for making machine learning accessible and engaging through real-world examples has been instrumental in popularizing the field.
+This project was inspired by **Andrew Ng's** famous coffee roasting example, used extensively in machine learning education. His passion for making machine learning accessible and engaging through real-world examples has been transformative.
+
+Special thanks to the Kaggle community for the coffee roasting dataset!
 
 ---
 
